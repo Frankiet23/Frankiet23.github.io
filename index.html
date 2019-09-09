@@ -6,22 +6,24 @@
 <body>
 	<h1>Find your spirit animal</h1>
 
-	<button onclick="firstFunction()">Click Me</button>
-	<button onclick="secondFunction()">Click Me</button>
+	<button onclick="dateChoice(1)">Click Me</button>
+	<button onclick="dateChoice(2)">Click Me</button>
 
 	<div id="mytextbox"></div>
 
 <script type="text/javascript">
-	function firstFunction(){
+
+	function dateChoice(value){
+		choiceVal = value;
+		alert(choiceVal);
+	 }
+
+	function secondFunction(){
 		alert("the button is clicked");
 		console.log("the button is clicked");
 		document.getElementById('mytextbox').innerHTML = 'adding some text';
 	}
 
-	function secondFunction(){
-		alert("the second button is clicked");
-		
-	}
 </script>
 </body>
 </html>
