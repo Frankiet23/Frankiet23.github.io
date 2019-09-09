@@ -8,10 +8,13 @@
 
 	<button onclick="firstFunction()">Click Me</button>
 
+	<div id="mytextbox"></div>
+
 <script type="text/javascript">
 	function firstFunction(){
 		alert("the button is clicked");
 		console.log("the button is clicked");
+		document.getElementById('mytextbox').innerHTML = 'adding some text';
 	}
 </script>
 </body>
