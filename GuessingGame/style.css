@@ -1,0 +1,37 @@
+
+body{
+  background-color:#e7834d;
+}
+
+h2, #userOutput{
+  color:white;
+  font-size:50px;
+  font-family: 'Helvetica';
+}
+
+div{
+  display: flex;
+  align-items: center;
+}
+
+#userInput{
+  height:50px;
+  width: 150px;
+  font-size:15px;
+  border-radius:20px;
+  border-color: #0000;
+}
+
+#guessButton{
+  background-color:black;
+  color:white;
+  height:50px;
+  width:100px;
+  border-radius: 20px;
+  border-color:#0000;
+  position: relative;
+  top:0;
+  font-size:15px;
+}
+
+
